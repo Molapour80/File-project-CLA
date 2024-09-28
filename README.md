@@ -7,7 +7,7 @@
 + os,sys,argparse,datatime,json liberaries
 
 # Usage
-### File:
+###  :card_index_dividers:File:
 + "--ls"->  List directory contents at 'path'
 + "--cd" -> Change the working directory to 'path'
 + "--mkdir" -> Create a new directory at 'path'
