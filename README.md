@@ -18,7 +18,7 @@
 + "mv" -> Move a file or directory from 'source' to 'destination'
 + "find" -> Search forfiles or directories matching 'pattern' starting from'path'
 +"cat" -> Outputthe contents ofthe file'file'
-###*I hope the program is error free*
+*I hope the program is error free*
 
 
 
