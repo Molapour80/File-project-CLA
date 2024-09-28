@@ -1,4 +1,4 @@
-# File-CLI
+# :memo:File-CLI
 *** This is a command-line interface (CLI) tool for managing files and directories, with additional functionality for logging commands and displaying directory contents. It allows users to perform various file operations such as creating, removing, copying, moving, and listing files and directories.***
 
 
