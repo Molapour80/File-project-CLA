@@ -8,7 +8,7 @@ import os
 
 ##############################################Define command-line arguments##################################
 def setup():
-    parser = argparse.ArgumentParser(description="weather forecast CLI")
+    parser = argparse.ArgumentParser(description=" CLI")
     parser.add_argument("--list",type=str, help="Show the all file")
     parser.add_argument("--cd", type=str, help=" Change the working directory")
     parser.add_argument("--mkdir", help="Create a new directory")
@@ -20,6 +20,7 @@ def setup():
     parser.add_argument("--find",nargs=2, help="Search forfiles or directories ")
     parser.add_argument("--cat",type=str, help="Outputthe contents ofthe file")
     parser.add_argument("--show-logs",action="store_true", help="show all logs of the program")
+    parser.add_argument("--rename", nargs=2, help="Rename a file or directory")
 
     return parser
 
@@ -151,6 +152,7 @@ def show_log(file_name="commands.log"):
         print(data)
     except FileNotFoundError:
         print("Log file not found.")
+        
 
 parser = setup()
 args = parser.parse_args()
